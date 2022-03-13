@@ -1,3 +1,41 @@
-div {
-    background-color: gray;
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.navigation {
+    width: 10%;
+    height: 100%;
+
+    position: fixed;
+
+    background: rgb(65, 65, 65);
+    border-color: rgb(63, 63, 63);
+}
+
+.name {
+    color: rgb(255, 136, 0);
+    text-align: center;
+    padding-top: 1em;
+}
+
+.events{
+    padding-top: 150%;
+}
+
+.event{
+    text-align: center;
+}
+
+.contacts{
+    padding-top: 200%;
+}
+
+.contact{
+    text-align: center;
+}
+.storyblocks{
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-evenly;
 }
